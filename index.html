@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Новости Премии - SABL</title>
+  <link rel="icon" type="image/x-icon" href="favicon1.ico">
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script> 
+</head>
+<body>
+  <div id="content">
+  <header>
+    <div class="logo">
+      <img src="logoawards1.jpg" alt="Логотип премии">
+      <h1>Новости <a href="https://mikha4255.github.io/Nomination" target="_blank">премии SABL</a></h1>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="#newsall">Все новости</a></li>
+        <li><a href="#candidates">Основные номинации</a></li>
+        <li><a href="#vote">Голосование</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="main-news">
+      <img class="main-news-image" src="SABL.png" alt="SABL">
+      <h2 id="main-news-title">SABL 2026 будет</h2>
+      <p id="main-news-description">
+        Мишаня объявил о новой премии SABL2026. Пока не известно, когда будет проходить премия и какие у неё будут этапы.
+      </p>
+    </section>
+
+    <section id="newsall" class="all-news">
+      <a href="#" id="reset-main-news">Вернуть главную новость</a>
+      <h2>Все новости</h2>
+      <div class="news-list">
+        
+        <div class="news-item" data-image="SABL.png" data-title="Второе, что сказал организатор:" data-description="Как минимум уже известно 4 человека, которые будут приглашены, как организаторы: Егор Насолдин, Олег Бондаренко, Артём Пушкин, Иван Копылов - но у них будут различные роли, которые будут даны главным организатором. Не факт, что все роли будут одинаково важны.">
+          <h3>Главный организатор премии SABL расказал некоторые подробностью.</h3>
+          <p>
+            Первое, что организатор сказал:
+            <ul>
+              <li>Все три класса будут привлечены к участию</li>
+              <li>Также будут привлечены новые люди для организации премии</li>
+          </ul>
+            Второе, что сказал организатор: ...
+            </p>
+        </div>
+        
+        <div class="news-item" data-image="https://avatars.mds.yandex.net/i?id=2806ccccaf2b8a88aade12ce1d5063bb_l-4885523-images-thumbs&n=13" data-title="Насчёт сайта" data-description="У премии будет новый сайт, так как, по словам организатора: `Над сайтом стало сложно работать, так как хочется добавлять, что-то новое, но получается слишком запутано. Строчки уже давно перевалили за 1000, но это не главное, проблема в том, что я добалял всё в конец файла. В итоге сейчас сайт полностью переписывается, с опрой на старый.`">
+          <h3>Главный организатор премии SABL сообщает:</h3>
+          <p class="new"> 
+            У премии SABL2026 будет новые, лучше прописанные правила(и вообще прописанные). Которые будут доступны на сайте, кстати про сайт...
+           </p>
+        </div>
+        
+        <div class="news-item" data-image="back.jpg" data-title="Мишаня возвращается в 1535." data-description="Организатор премии SABL2025 - Мишаня сообщил, что возвращается в лицей. Не забывайте про нас.">
+          <h3>Мишаня возвращается в 1535.</h3>
+          <p>
+            Организатор премии SABL2025 - Мишаня сообщил, что возвращается в лицей.
+          </p> 
+        </div>
+      </div>
+    <div class="suggest-news-container">
+      <a href="https://docs.google.com/forms/d/e/1FAIpQLSfwisGSlxfOtzvIN67-YH6w_5uMsT9Rc2Dx1o69CoUyS7t-Ig/viewform?usp=dialog" class="suggest-news-btn" target="_blank">
+        ✏️ Предложить новость
+      </a>
+    </div> 
+    </section>
+
+    <section id="candidates" class="candidates">
+      <h2>4 основные номинации премии</h2>
+      <div class="candidates-list">
+        <div class="candidate-card">
+          <img src="king_main.png" alt="Номинация 1">
+          <h3>SABL KING</h3>
+        </div>
+        <div class="candidate-card">
+          <img src="queen_main.jpg" alt="Номинация 2">
+          <h3>SABL QUEEN</h3>
+        </div>
+        <div class="candidate-card">
+          <img src="mem_main.png" alt="Номинация 3">
+          <h3>Человек-мем года</h3>
+        </div>
+        <div class="candidate-card">
+          <img src="new_zavoz.jpg" alt="Номинация 4">
+          <h3>Лучший завозер</h3>
+        </div>
+      </div>
+    </section>
+    
+    
+    <section id="vote" class="vote">
+      <h2>Ссылка на Голосование</h2>
+      <div>
+        <p>Чтобы проголосовать следуйте данным шагам</p>
+        <ul>
+          <li>Пройдите по ссылке <a class="link-vote" href="https://mikha4255.github.io/Nomination/" target="_blank">на сайт премии</a></li>
+          <li>С помощью навигации найдите раздел "Номинации"</li>
+          <li>В день премии будет онлайн встреча, на которой откроется доступ к голосованию</li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+  
+  <footer>
+    <p>Полезные ссылки:
+      <ul>
+      <li>Связь через почту: <a href="mailto:anton2000.dom@gmail.com" target="_blank">anton2000.dom@gmail.com</a></li>
+      <li><a href="https://mikha4255.github.io/Nomination/" target="_blank">Сайт премии</a></li>
+    </ul>
+    </p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>
