@@ -108,12 +108,11 @@ main{
   margin-bottom: 20px;
   text-align: center;
   transition: all 0.3s ease;
-  max-width: 42%;
+  max-width:  55%;
 }
 
 .main-block ul,
 .main-block ol {
-  list-style-position: inside;
   margin: 10px auto;      
   padding: 0;     
   text-align: left;
@@ -158,6 +157,28 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 42px;
+  max-height: 550px; 
+  overflow-y: auto; 
+  overflow-x: hidden;
+  padding-right: 10px; 
+}
+
+.blocks::-webkit-scrollbar {
+  width: 10px;
+}
+
+.blocks::-webkit-scrollbar-thumb {
+  background: #ff6a00;
+  border-radius: 10px;
+}
+
+.blocks::-webkit-scrollbar-thumb:hover {
+  background: #ff9c33;
+}
+
+.blocks::-webkit-scrollbar-track {
+  background: #222;
+  border-radius: 10px;
 }
 
 .item {
@@ -173,7 +194,6 @@ button:hover {
   padding: 10px;
   cursor: pointer;
   color: rgb(171, 231, 18);
-  transition: transform 0.2s, 0.3s;
 }
 
 .item ul li, .item ol li{
@@ -188,6 +208,7 @@ button:hover {
     );
   color: #ff4400;
   transform: scale(1.02);
+  transition: 0.42s;
 }
 
 /* Кандидаты и партии */
@@ -209,6 +230,17 @@ button:hover {
   overflow-x: auto; 
   gap: 50px;
   padding: 30px;
+}
+
+.candidates-list::-webkit-scrollbar  {
+    height: 10px;
+}
+.candidates-list::-webkit-scrollbar-track {
+    background: #1d1102;
+  }
+.candidates-list::-webkit-scrollbar-thumb {
+    background: #ff6600;
+    border-radius: 4px;
 }
 
 .candidate-card {
