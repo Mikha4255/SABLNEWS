@@ -12,7 +12,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* Шапка */
+/* Шапка */ 
 header { 
   display: flex;
   justify-content: space-between;
@@ -101,12 +101,11 @@ main{
 }
 
 .main-block {
-  padding: 20px;
+  padding: 42px;
   border: 2px solid rgb(231, 174, 18);
   color: #ff6a00;
   border-radius: 10px;
   margin-bottom: 20px;
-  text-align: center;
   transition: all 0.3s ease;
   max-width:  55%;
 }
@@ -141,6 +140,21 @@ main{
   max-height: 420px;
   border-radius: 10px;
   margin-top: 10px;
+}
+
+.main-block div p, .main-block h2{
+  text-align: center;
+}
+
+.main-block div ol{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ps{
+  color: #42e90c;
+  font-size: 20px;
 }
 
 button {
