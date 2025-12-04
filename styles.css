@@ -82,14 +82,22 @@ main{
 .bord{
   padding: 20px;
   margin: 10px;
+  border: 3px solid rgb(231, 174, 18);
+  border-radius: 42px;
+}
+
+.bord1{
+  padding: 20px;
+  margin: 10px;
   border: 2px solid rgb(231, 174, 18);
   border-radius: 42px;
+  max-width: 40%;
 }
 
 .for_blocks{
   display: block;
   margin: 0px;
-  border-radius: 5px;
+  border-radius: 15px;
 }
 
 .container { 
@@ -102,12 +110,15 @@ main{
 
 .main-block {
   padding: 42px;
-  border: 2px solid rgb(231, 174, 18);
+  border: 3px solid rgb(231, 174, 18);
   color: #ff6a00;
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
   margin-bottom: 20px;
   transition: all 0.3s ease;
-  max-width:  55%;
+  max-width: 60%;
 }
 
 .main-block a{
@@ -131,7 +142,7 @@ main{
 .main-block li {
   margin-left: 0;
   padding-left: 0;
-  color: rgb(245, 126, 36); 
+  color: rgb(152, 254, 0); 
 }
 
 
@@ -146,6 +157,14 @@ main{
   text-align: center;
 }
 
+.main-block div p{
+  font-size: 20px;
+}
+
+.main-block h2{
+  font-size: 26px;
+}
+
 .main-block div ol{
   display: flex;
   flex-direction: column;
@@ -153,7 +172,7 @@ main{
 }
 
 .ps{
-  color: #42e90c;
+  color: #f2220b;
   font-size: 20px;
 }
 
@@ -181,7 +200,7 @@ button:hover {
   display: flex;
   flex-direction: column;
   gap: 42px;
-  max-height: 550px; 
+  max-height: 42%; 
   overflow-y: auto; 
   overflow-x: hidden;
   padding-right: 10px; 
@@ -273,7 +292,6 @@ button:hover {
   width: 250px;
   height: 400px;
   text-align: center;
-  
   border-radius: 40px;
   margin: 20px;
   padding: 20px;
@@ -289,7 +307,7 @@ button:hover {
 .candidate-card img {
   object-fit: cover;
   width: 250px;
-  height: 400px;
+  height: 320px;
 }
 
 .praim_cand{
@@ -450,6 +468,10 @@ hr {
 }
 
   .main-block{
+    max-width: 100%;
+  }
+
+  .bord1{
     max-width: 100%;
   }
 
